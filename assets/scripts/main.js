@@ -120,7 +120,7 @@ async function getRecipes() {
           saveRecipesToStorage(recipes);
           resolve(recipes);
         }
-      } 
+      }   
       catch (error) {
         
   // A10. TODO - Log any errors from catch using console.error
